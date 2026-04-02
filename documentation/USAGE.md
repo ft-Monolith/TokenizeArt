@@ -25,3 +25,10 @@ Metadata file includes:
 - `description`
 - `image` (IPFS URI)
 - `attributes` with artist login `qordoux`
+
+## IPFS links in a browser
+
+- Metadata URI: `ipfs://bafkreiafo6smoxes2anav3z5v3pt3hpmf72abb32nvo6nm7okn5igrxel4`
+- Metadata gateway URL: https://ipfs.io/ipfs/bafkreiafo6smoxes2anav3z5v3pt3hpmf72abb32nvo6nm7okn5igrxel4
+- Image URI: `ipfs://bafkreibydalaoup3csvvulxlierwnqsyqa3baz5uoepcqrl6dapyfdnrk4`
+- Image gateway URL: https://ipfs.io/ipfs/bafkreibydalaoup3csvvulxlierwnqsyqa3baz5uoepcqrl6dapyfdnrk4
