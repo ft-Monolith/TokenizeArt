@@ -33,7 +33,7 @@ This repository contains my NFT project for the 42 TokenizeArt subject.
 4. You can mint and prove ownership with `ownerOf(tokenId)`.
 5. Code and documentation are readable and explicit.
 
-## Runtime proof (done)
+## Runtime proof
 - `ownerOf(0)` returns: `0xf6E4Dba09987d40aca39E33Ca1c05bda98FcB844`
 - `tokenURI(0)` returns: `ipfs://bafkreiafo6smoxes2anav3z5v3pt3hpmf72abb32nvo6nm7okn5igrxel4`
 - Source code verification on Etherscan: success (matching bytecode and ABI)
