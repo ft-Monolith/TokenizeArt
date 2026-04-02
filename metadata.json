@@ -1,0 +1,9 @@
+{
+  "name": "42Below",
+  "description": "A sperm whale diving into the deep ocean, marked with the number 42.",
+  "image": "ipfs://bafkreibydalaoup3csvvulxlierwnqsyqa3baz5uoepcqrl6dapyfdnrk4",
+  "attributes": [
+    { "trait_type": "Artist", "value": "qordoux" },
+    { "trait_type": "School", "value": "42" }
+  ]
+}
