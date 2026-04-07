@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /// @title TokenizeArt NFT (42 project)
-/// @notice Minimal ERC-721 contract with owner-only mint and fixed metadata URI.
+/// @notice Minimal ERC-721 contract with owner-only mint and fixed metadata URI
 contract TokenizeArt is ERC721, Ownable
 {
     uint256 private _nextTokenId;
@@ -18,7 +18,7 @@ contract TokenizeArt is ERC721, Ownable
         _baseTokenURI = baseMetadataURI;
     }
 
-    /// @notice Mint one NFT to `to`. Only contract owner can call this.
+    /// @notice Mint one NFT to `to`. Only contract owner can call this
     function mint(address to) external onlyOwner returns (uint256 tokenId)
     {
         tokenId = _nextTokenId;
@@ -26,7 +26,7 @@ contract TokenizeArt is ERC721, Ownable
         _safeMint(to, tokenId);
     }
 
-    /// @notice Return metadata URI (same metadata for each token in this project).
+    /// @notice Return metadata URI (same metadata for each token in this project)
     function tokenURI(uint256 tokenId) public view override returns (string memory)
     {
         _requireOwned(tokenId);
