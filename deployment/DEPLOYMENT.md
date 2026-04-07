@@ -29,4 +29,3 @@
 ## Visual proof links (IPFS gateway)
 - Metadata (gateway): https://ipfs.io/ipfs/bafkreiafo6smoxes2anav3z5v3pt3hpmf72abb32nvo6nm7okn5igrxel4
 - Image (gateway): https://ipfs.io/ipfs/bafkreibydalaoup3csvvulxlierwnqsyqa3baz5uoepcqrl6dapyfdnrk4
-
